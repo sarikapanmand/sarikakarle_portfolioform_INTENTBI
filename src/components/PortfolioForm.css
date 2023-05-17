@@ -1,0 +1,133 @@
+/* PortfolioForm.css */
+
+body {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    color-stop(0.21, #33475b),
+    color-stop(0.7, #ff9900)
+  );
+  background: -webkit-linear-gradient(bottom left, #33475b 21%, #dbf9fc 70%);
+  background: -moz-linear-gradient(bottom left, #33475b 21%, #dbf9fc 70%);
+  background: -o-linear-gradient(bottom left, #33475b 21%, #dbf9fc 70%);
+  background: -ms-linear-gradient(bottom left, #33475b 21%, #dbf9fc 70%);
+  background: linear-gradient(to top right, #33475b 21%, #dbf9fc 70%);
+}
+.portfolio-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.portfolio-form h2 {
+  text-align: center;
+}
+
+.portfolio-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.portfolio-form input[type="text"],
+.portfolio-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.portfolio-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.portfolio-form .asset-inputs,
+.portfolio-form .transaction-inputs {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.portfolio-form .asset-inputs label,
+.portfolio-form .transaction-inputs label {
+  font-weight: bold;
+}
+
+.portfolio-form .asset-inputs input[type="text"],
+.portfolio-form .transaction-inputs input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.portfolio-form .asset-inputs input[type="text"]:not(:last-child),
+.portfolio-form .transaction-inputs input[type="text"]:not(:last-child) {
+  margin-right: 5px;
+}
+.portfolio-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.portfolio-form h2 {
+  text-align: center;
+}
+
+.portfolio-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.portfolio-form input[type="text"],
+.portfolio-form input[type="email"],
+.portfolio-form input[type="url"],
+.portfolio-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.portfolio-form button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.portfolio-form button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .portfolio-form {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
